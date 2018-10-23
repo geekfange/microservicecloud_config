@@ -23,6 +23,8 @@ mybatis:
   configuration:
     cache-enabled: true
   type-aliases-package: com.sxt.cloud.entity
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml
 eureka:
   client:
     service-url:
@@ -52,6 +54,8 @@ mybatis:
   configuration:
     cache-enabled: true
   type-aliases-package: com.sxt.cloud.entity
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml
 eureka:
   client:
     service-url:
